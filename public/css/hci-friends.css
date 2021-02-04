@@ -1,14 +1,21 @@
 /* applies to anything of class "example-class-selector" */
 .example-class-selector {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
 .example-class-selector p {
-	/* Colors are in hexadecimal: http://www.colorpicker.com/ */	
-	color: #CC00AA;
+    /* Colors are in hexadecimal: http://www.colorpicker.com/ */
+    color: #cc00aa;
 }
 
-h1, h2, h3, h4, h5 {
-	color: #8382BF;
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #8382bf;
+}
+.friend {
+    max-width: 300px;
 }
